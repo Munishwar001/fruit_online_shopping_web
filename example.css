@@ -1,0 +1,297 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:pink;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size:20px;
+}
+
+.nav img {
+    height: 50px;
+    width: 200px;
+}
+
+.menubar {
+    display: flex;
+    align-items: center;
+}
+
+.menubar a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.menubar a:hover {
+    color: #ffd700;
+}
+
+.signup,
+.signin {
+    background-color: #ffd700;
+    color: #333;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-left: 20px;
+   }
+
+.signup:hover,
+.signin:hover {
+    background-color: #ffcc00;
+}
+
+.search input{
+    height:35px;
+    text-align: center;
+    width:200px;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    margin-top:30px;
+    border:none;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.search button{
+    height:35px;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    margin:0px;
+    background-color:white;
+    border:none;
+    width:20px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+/**hero section**/
+.slideshow{
+    width:1520px;
+    height:650px;
+    background-image:url('https://fruitboxco.com/cdn/shop/files/Untitled_design_6_1800x.png?v=1614835360');
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    animation:changeimage 20s linear infinite alternate;
+    margin-top:0%;
+    text-align: center;
+    background-repeat:no-repeat;
+}
+  @keyframes changeimage{
+    0%{
+        background-image:url('https://fruitboxco.com/cdn/shop/files/banner2fb_b034b778-55cb-48a2-8e01-675eeee31016_1800x.png?v=1614785070');
+    }
+    25%{
+        background-image:url('https://fruitboxco.com/cdn/shop/files/WTF-1_1800x.jpg?v=1614787924');
+    }
+    50%{
+        background-image:('https://fruitboxco.com/cdn/shop/files/Untitled_design_6_1800x.png?v=1614835360');
+    }
+    75%{
+        background-image:url('https://fpsstore.in/cdn/shop/files/MANGO.png?v=1710137608');
+    }
+    100%{
+        background-image:url('https://www.malasfruit.com/public/images/homepage/1667306189_banner01_1920x1080_jpg.jpg');
+    }
+} 
+.shop_here{ 
+    background-color:transparent;
+    text-transform: uppercase;
+    font-family:libre baskerville, serif;
+    font-size:20px;
+    font-style: normal;
+    font-weight:400;
+    letter-spacing:.2em;
+    z-index:1;
+    height:35px;
+    color: black;
+    position:absolute;
+    top:25rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.shop_here a{
+    text-decoration:none;
+    color: black;
+}
+.About_us{
+    text-align: center;
+    font-family:libre baskerville, serif;
+    margin:25px 0px 35px opx;
+}
+.abouth1{
+    text-transform: uppercase;
+    font-style:normal;
+    font-size: 40px;
+    margin-bottom:20px;
+    margin-top:20px;
+    font-weight:700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about_paragh{
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: expanded;
+}
+.grapes{
+    display:block;
+    /* border:1px solid black; */
+    height:500px;
+    width:400px;
+    margin:10px;
+    padding:10px;
+    margin-top: 5px;
+    text-align:center;
+}
+.fruits h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.add_cart{
+    text-decoration: none;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    width: 100%;
+    height: 40px;
+    min-height: 40px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(195, 198, 143);
+    border-width: 1px;
+    border-color: rgb(195, 198, 143);
+    border-radius: 0px;
+    border-style: solid;
+    margin: 10px 0px 10px;
+    padding: 0px;
+}
+.fruits{
+    display: flex;
+    width:1520px;
+    align-items: center;
+}
+del{
+    color:gray;
+    margin-right:5px;
+}
+ins{
+    text-decoration:none;
+    color:red;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.dailyfruits{
+    margin:100px 0px 0px 0px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing:0.5rem;
+    font-size:50px;
+   justify-content: center;
+   text-align:center; 
+}
+.dailyfruits:hover{
+    text-decoration:underline;
+    color: #ffd700;
+}
+.grapes:hover{
+ border:1px solid rgb(12, 202, 12);
+ border-radius:15px;
+ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+/** Price list**/
+table,th,td{
+    padding-left:20px;
+    height:40px;
+    width:500px;
+    border-style:none
+}
+tr:nth-child(even)
+{
+ background-color:rgb(238, 231, 231);
+}
+th{
+    color:white;
+    background-color:rgb(195, 198, 143);
+}
+tr:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    height:50px;
+    width:500px;
+    border-radius:10px;
+}
+table{
+    margin-left:500px;
+    margin-top:30px;
+}
+/**feedback**/
+.form{
+    height: 400px;
+    width:600px;
+    border:1px solid rgb(195, 198, 143);
+    margin-left: 450px;
+    margin-top:50px;
+    margin-bottom:50px;
+    border-radius:15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.info-cantain{
+    display:flex;
+}
+.info{
+    margin:auto;
+}
+h2{
+    text-align:center;
+    background-color:rgb(195, 198, 143);
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    margin-bottom:10px;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-top:50px;
+    margin-bottom:30px;
+    font-size: 20px;
+    text-align: left;
+}
+.suggestion{
+    align-self:left;
+    height:70px;
+    width:450px;
+}
+input{
+    margin-bottom: 30px;
+}
+/**footer**/
+.footer1{
+background-color:rgb(195, 198, 143);
+font-family: 'Times New Roman', Times, serif;
+display:flex;
+padding:20px;
+font-size:20px;
+text-align:center;
+justify-content:center;
+}
+footer a{
+    text-decoration: none;
+    color:#fff;
+    margin-top:10px;
+}
+.footer2{
+    margin-left:100px;
+}
+.footerheading{
+    color:rgb(8, 77, 8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
